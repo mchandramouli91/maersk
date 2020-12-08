@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	background: #E9E3E3;
+}
+
+.tile-container {
+	margin:10px;
+	padding-top: 20px;
+}
+
+.tile {
+	text-align: center;
+	margin: 5px;
+	border: 1px solid;
+	padding: 10px;
+	color: #000000;
+	background: #EFEFEF;
+}
+
+.footer {
+	text-align: center;
+	font-style: italic;
+	position: absolute;
+	bottom:0;
+	height: 5%;
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+		.heading{
+			top:0;
+			height: 5%;
+			background:  #FFFFFF !important;
+			color: #000000 !important;
+		}
+
+		.container {
+			height: 85%;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		.buttons-container {
+			flex-basis: 20%;	
+		}
+
+		.buttons-container button {
+			display: block;
+			margin-bottom: 20px;
+			width: 100% !important;
+		}
+
+		.tile-container{
+			flex-basis: 80%;
+			display: flex;
+			flex-wrap: wrap;
+			padding-top: 0;
+		}
+		.tile {
+			flex-basis: 25.3333%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+			border: none;
+			font-size: xxx-large;
+			font-weight: bold;
+			color: #EFEFEF !important;
+		}
+
+	.tile-1,
+	.tile-8 {
+		background: #6F98A8 !important;
+	}
+
+	.tile-3,
+	.tile-5,
+	.tile-9 {
+		background: #2F454E !important;
+	}
+
+	.tile-2,
+	.tile-4 {
+		background: #2B8EAD !important;
+	}
+
+	.tile-6,
+	.tile-7 {
+		background: #BFBFBF !important;
+	}
+}
+
+.heading {
+	top:0;
+	height: 5%;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background:  #000000;
+	color: #FFFFFF;
+}
+
+.heading > h2 {
+	margin: 0;
+}
+
+.buttons-container {
+	text-align: center;
+	padding: 10px;
+}
+
+.buttons-container button {
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	border-width: 0 0 4px 0;
+	color: #FFFFFF;
+	border-color: #72C3DC;
+	background: #72C3DC;
+	outline: none;
+}
+.tile-1,
+.tile-8 {
+	border-width: 0 0 0 8px;	
+	border-color: #6F98A8;
+}
+
+.tile-3,
+.tile-5,
+.tile-9 {
+	border-width: 0 0 0 8px;	
+	border-color: #2F454E;
+}
+
+.tile-2,
+.tile-4 {
+	border-width: 0 0 0 8px;	
+	border-color: #2B8EAD;
+}
+
+.tile-6,
+.tile-7 {
+	border-width: 0 0 0 8px;	
+	border-color: #BFBFBF;
+}
+
