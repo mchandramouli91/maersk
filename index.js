@@ -1,7 +1,7 @@
 const randomContainer = document.querySelector(".tile-container");
 const shuffleButton = document.getElementById("shuffleBtnId");
 const sortButton = document.getElementById("sortBtnId");
-const randomArray = [9, 4, 3, 5, 6, 7, 2, 1, 8];
+const randomArray = [4, 9, 3, 5, 6, 7, 2, 1, 8];
 
 shuffleButton.addEventListener('click', (e) => {
 	shuffleTiles(randomArray);
